@@ -25,5 +25,9 @@ class User:
 
 
 def main():
-    user1 = User('Egor', 1, 24, 'Belyakovich')
+    user1 = User('Egor', 13, 24, 'Belyakovich')
     print(User.users)
+    user1.change_parameter(13,'name', 'rogE')
+    print(user1.name)
+
+main()
